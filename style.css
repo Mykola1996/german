@@ -1,0 +1,85 @@
+.wrapper {
+    padding: 0 200px;
+}
+
+.navbar {
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main__text > h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.main__text > p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+
+.main__line {
+    margin: 50px 0;
+    width: 200px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.bottom_text >h3 {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    color: #1652AC;
+}
+
+.bottom_text >p {
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.card {
+    background: #003584;
+}
+
+.card-body {
+    padding: 180px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    color: #FBFDFF;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
